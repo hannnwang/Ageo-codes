@@ -1,5 +1,5 @@
 # Ageo-codes
-Synthetic examples and some other codes related to the paper "Ageostrophic corrections for power spectra and wave–vortex decomposition", to appear on Journal of Fluid Mechanics. 
+Synthetic examples and the code applied to data related to the paper "Ageostrophic corrections for power spectra and wave–vortex decomposition", to appear on Journal of Fluid Mechanics. 
 Contains: 
 1) Code verifying the wave-vortex decomposition algorithm applied to 1D synthetic data, as shown in section 4.3 in the paper. What comes within it is the code to calculate the ageostrophic QG spectrum from 1D track data. 
 The corresponding main program: practise_washingcycle_verify.m
