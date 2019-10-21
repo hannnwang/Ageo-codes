@@ -5,17 +5,17 @@
 %
 %Input:
 % H      Spectrum H(k)
-% k      Spatial frequencies [rad/m] °
-% r      Radial positions [m] °
+% k      Spatial frequencies [rad/m] Â°
+% r      Radial positions [m] Â°
 % n      Transform order               {0}
 %   or
-% I      Integration kernel °*         {default}
+% I      Integration kernel Â°*         {default}
 %
 %Output:
 % h      Signal h(r)
 %
 %
-% °)  As computed with FHT.
+% Â°)  As computed with FHT.
 %
 % *)  If the integration kernel is missing, it is
 %     recomputed from the Bessel functions (slow).
@@ -25,7 +25,7 @@
 %     Opt. Lett. 1, 13-15 (1977).
 %
 
-%     Marcel Leutenegger © June 2006
+%     Marcel Leutenegger Â© June 2006
 %
 function h=ifht(H,k,r,n)
 N=numel(k);
