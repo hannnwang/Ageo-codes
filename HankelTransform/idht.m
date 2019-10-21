@@ -5,15 +5,15 @@
 %
 %Input:
 % H      Spectrum H(k)
-% I      Integration kernel °
-% K      Spectrum factors °
-% R      Signal factors °
+% I      Integration kernel Â°
+% K      Spectrum factors Â°
+% R      Signal factors Â°
 %
 %Output:
 % h      Signal h(r)
 %
 %
-% °)  As computed with DHT.
+% Â°)  As computed with DHT.
 %
 
 % [1] M. Guizar-Sicairos, J.C. Gutierrez-Vega, Computation of
@@ -22,8 +22,8 @@
 %     53-58 (2004).
 %
 
-%     Marcel Leutenegger © June 2006
-%     Manuel Guizar-Sicairos © 2004
+%     Marcel Leutenegger Â© June 2006
+%     Manuel Guizar-Sicairos Â© 2004
 %
 function h=idht(H,I,K,R)
 h=I*(H./K).*R;
