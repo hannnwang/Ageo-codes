@@ -16,13 +16,13 @@
 % h      Signal h(r) *
 % R      Maximum radius [m]
 %   or
-% R      Signal factors °                 {default}
+% R      Signal factors Â°                 {default}
 % N      Number of sampling points        {256}
 %   or
-% K      Spectrum factors °               {default}
+% K      Spectrum factors Â°               {default}
 % n      Transform order                  {0}
 %   or
-% I      Integration kernel °             {default}
+% I      Integration kernel Â°             {default}
 %
 %Output:
 % H      Spectrum H(k)
@@ -37,7 +37,7 @@
 % *)  Values request the presence of the kernel, samplings
 %     and factors, which can be computed with empty input.
 %
-% °)  The computation of the integration kernel is slow com-
+% Â°)  The computation of the integration kernel is slow com-
 %     pared to the full transform. But if the factors and the
 %     kernel are all present, they are reused as is.
 %
@@ -48,8 +48,8 @@
 %     53-58 (2004).
 %
 
-%     Marcel Leutenegger © June 2006
-%     Manuel Guizar-Sicairos © 2004
+%     Marcel Leutenegger Â© June 2006
+%     Manuel Guizar-Sicairos Â© 2004
 %
 function [H,k,r,I,K,R,h]=dht(h,R,N,n)
 if nargin < 3 | isempty(N)
