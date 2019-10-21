@@ -14,7 +14,8 @@ close all
 kmin=7.1079e-06; %smallest k observed in data
 
 CoarseFactor=24;%Making the grid coarser for quicker execution; setting it...
-%as 1 will make k more similar to the one in data application
+%as 1 will make k more similar to the one in data application, but then you probably ...
+%can not run this program on a regular laptop. 
 
 dk=kmin*1001/1000;
 Kappas=10^(-10)*dk;
@@ -56,7 +57,7 @@ xr_e(1:Mmax_e/2)=-xr_e(1:Mmax_e/2);
 
 ihalf=(Nx/2+1):Nx;
 
-%% Some constants; they are assumed to be similar values as in data.
+%% Some constants; their values are similar as in data.
 lat=30;%Assuming the lattitude is 30 degrees north
 f= 2*7.2921*10^(-5)*sind(lat);
 rho=0.36;%Assuming density is 0.36
