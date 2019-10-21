@@ -6,7 +6,7 @@ The corresponding main program: practise_washingcycle_verify.m
 2) Code verifying the 1D algorithm, which corresponds to section 3.3 in paper.
 The corresponding main program: practise_Cphit_from_Cpsit_noise.m
 
-I'm using Matlab 2019a for these codes. All the programs can be run within minutes at a reasonably good laptop. 
+I'm using Matlab 2019a for these codes. All the programs can be run within minutes on a reasonably good laptop. 
 PLEASE do not hesitate to contact me if you are confused about anything. (Email: hannnwangus@gmail.com)
 
 Han, 2019/10/21.
