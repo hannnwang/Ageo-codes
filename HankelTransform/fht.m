@@ -6,7 +6,7 @@
 %Input:
 % h      Function h(r)
 %   or
-% h      Signal h(r) °
+% h      Signal h(r) Â°
 % R      Maximum radius [m]
 %   or
 % r      Radial positions [m] *           {default}
@@ -27,7 +27,7 @@
 % h      Signal h(r)
 %
 %
-% °)  Values request the presence of the kernel and samplings,
+% Â°)  Values request the presence of the kernel and samplings,
 %     which can be computed with empty input.
 %
 % *)  The computation of the integration kernel is slow com-
@@ -39,7 +39,7 @@
 %     Opt. Lett. 1, 13-15 (1977).
 %
 
-%     Marcel Leutenegger © June 2006
+%     Marcel Leutenegger Â© June 2006
 %
 function [H,k,r,I,h]=fht(h,R,K,n,M,m)
 if nargin < 4 | isempty(n)
