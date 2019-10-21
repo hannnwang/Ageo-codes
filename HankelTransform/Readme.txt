@@ -40,7 +40,7 @@
 
 2. Requirements
 
-	• MATLAB 6.0 or newer.
+	â€¢ MATLAB 6.0 or newer.
 
 
 3. Implementation details
@@ -59,12 +59,12 @@
 
 4. References
 
-	• M. Guizar-Sicairos, J.C. Gutierrez-Vega, "Computation of quasi-discrete Hankel
+	â€¢ M. Guizar-Sicairos, J.C. Gutierrez-Vega, "Computation of quasi-discrete Hankel
 	  transforms of integer order for propagating optical wave fields," J. Opt. Soc.
 	  Am. A 21, 53-58 (2004).
-	• D.G. Gardner, J.C. Gardner, G. Lausch, W.W. Meinke, "Method for the analysis
+	â€¢ D.G. Gardner, J.C. Gardner, G. Lausch, W.W. Meinke, "Method for the analysis
 	  of multi-component exponential decays," J. Chem. Phys. 31, 987 (1959).
-	• A.E. Siegmann, "Quasi fast Hankel transform," Opt. Lett. 1, 13-15 (1977).
+	â€¢ A.E. Siegmann, "Quasi fast Hankel transform," Opt. Lett. 1, 13-15 (1977).
 
 
 5. Copyright
@@ -104,10 +104,10 @@
 
 7. History
 
-   • December 13, 2006
+   â€¢ December 13, 2006
 	Initial release
 
-   • April 10, 2007
+   â€¢ April 10, 2007
 	Bug fix in "fht.m" thanks to Mark W. Sprague.
 
 
@@ -129,5 +129,5 @@
 
 		________________________________________________________
 
-			    Site map • EPFL © 2006, Lausanne
-				Webmaster • Dec 13, 2006
+			    Site map â€¢ EPFL Â© 2006, Lausanne
+				Webmaster â€¢ Dec 13, 2006
