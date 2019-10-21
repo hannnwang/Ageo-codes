@@ -9,18 +9,18 @@
 % r      Radial positions [m]          {0:numel(H)-1}
 % n      Transform order               {0}
 %   or
-% I      Integration kernel °          {default}
+% I      Integration kernel Â°          {default}
 %
 %Output:
 % h      Signal h(r)
 % I      Integration kernel
 %
 %
-% °)  If the integration kernel is missing, it is
+% Â°)  If the integration kernel is missing, it is
 %     recomputed from the Bessel functions (slow).
 %
 
-%     Marcel Leutenegger © June 2006
+%     Marcel Leutenegger Â© June 2006
 %
 function [h,I]=ihat(H,k,r,n)
 if sum(size(H) > 1) > 1
