@@ -7,18 +7,18 @@
 % h      Signal h(r)
 % r      Radial positions [m]          {0:numel(h)-1}
 % k      Spatial frequencies [rad/m]   {pi/numel(h)*(0:numel(h)-1)}
-% I      Integration kernel °          {default}
+% I      Integration kernel Â°          {default}
 %
 %Output:
 % H      Spectrum H(k)
 % I      Integration kernel
 %
 %
-% °)  If the integration kernel is missing, it is
+% Â°)  If the integration kernel is missing, it is
 %     recomputed from the Bessel functions (slow).
 %
 
-%     Marcel Leutenegger © June 2006
+%     Marcel Leutenegger Â© June 2006
 %
 function [H,I]=ht(h,r,k,I)
 if sum(size(h) > 1) > 1
