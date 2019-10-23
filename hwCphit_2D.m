@@ -1,6 +1,5 @@
 function [Cphit_V] = hwCphit_2D(Cpsit_V,K,L,Lx,Ly,xr,yr,k,l,f,KappaD,Kappas)
 %Get Cphit_V from Cpsit_V (2D) (V denotes Vortex part)
-%See practise_Cphit_from_Cpsit_2D.m for justification
 
 Lkt=1./((KappaD^2)/f./(K.^2+L.^2+Kappas^2)./(K.^2+L.^2+KappaD^2));
 
