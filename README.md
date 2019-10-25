@@ -6,7 +6,7 @@ The corresponding main program: practise_washingcycle_verify.m
 2) Code verifying the 1D algorithm, which corresponds to section 3.3 in paper.
 The corresponding main program: practise_Cphit_from_Cpsit_noise.m
 
-I'm using Matlab 2019a for these codes. All the programs can be run within minutes on a reasonably good laptop. When you run them, please make sure that everything in this repository is copied into your Matlab path; especially, do not forget the stuff in fftstuff and the Hankel Transform package. 
+I'm using Matlab 2019a for these codes. All the synthetic examples can be run within minutes on a reasonably good laptop, but if you are applying it to realistic data, you may need a lot more computational resources. When you run them, please make sure that everything in this repository is copied into your Matlab path; especially, do not forget the stuff in fftstuff and the Hankel Transform package. 
 
 PLEASE do not hesitate to contact me if you are confused about anything. (Email: hannnwangus@gmail.com)
 
